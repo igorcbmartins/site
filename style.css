@@ -1,0 +1,145 @@
+.principal{
+    color: #FFFFFF;
+    background-image: url(imagens/Backgroun.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#00030C;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+.containe_botao{
+    background-color: #167BF7;
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid color#FFFFFF;
+}
+.conteiner_aviso{
+    font-size: 12px;
+    color: #C0C0C0;
+    
+}
+.conteiner_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.conteiner_imagem{
+    margin:1em 0 2em 0 ;
+}
+
+.container_caixa{
+    margin: 0 6em;
+}
+
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color:#FFFFFF;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color:#C0C0C0;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivo__titulo{
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.lista__item{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 5em;
+}
+
+.rodape__lista{
+    justify-content: center;
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 1em;
+    
+}
+
+.rodape__texto{
+    color: #C0C0C0;
+    margin: 1em 0;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.lista__link a:hover{
+    color: #167BF7;
+}
+
+.lista__link a:active{
+    color: purple;
+}
+
+.containe_botao:hover{
+    background-color: #4d9bfa;
+    color: #00030C;
+}
